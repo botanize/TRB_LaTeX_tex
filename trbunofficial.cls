@@ -203,21 +203,13 @@
   \begin{flushleft}
     {\MakeUppercase{\bfseries\@title}}\\
     \hfill\break%
-    \hfill\break%
-    \hfill\break%
-    \@author\\
-    \hfill\break%
+    \@author~\\
     \hfill\break%
     \if\@TotalWords 0
       Word Count: \wordcount words $+$ \total{table} table(s) $\times$ \@WordsPerTable\ $=$ \totalwordcount~words\\
     \else
       Word Count: \@TotalWords\ words $+$ \total{table} table(s) $\times$ \@WordsPerTable\ $=$ \the\numexpr\@TotalWords + \totvalue{table}*\@WordsPerTable~words\\
     \fi
-    \hfill\break%
-    \hfill\break%
-    \hfill\break%
-    \hfill\break%
-    \hfill\break%
     \hfill\break%
     Submission Date: \today
   \end{flushleft}
